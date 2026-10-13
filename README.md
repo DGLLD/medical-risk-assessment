@@ -35,7 +35,7 @@
 ## 📁 项目结构
 
 ```
-PythonProject（doctor）/
+health-risk-assessment/
 ├── data/                          # 数据集
 │   ├── 高血压数据集.csv
 │   ├── 糖尿病数据集1.csv
@@ -194,7 +194,7 @@ docker-compose logs -f app
 | `DB_HOST` | 数据库主机 | `127.0.0.1` |
 | `DB_PORT` | 数据库端口 | `3306` |
 | `DB_USER` | 数据库用户 | `root` |
-| `DB_PASSWORD` | 数据库密码 | `111111` |
+| `DB_PASSWORD` | 数据库密码 | 见 .env.example |
 | `DB_NAME` | 数据库名称 | `test_db` |
 | `APP_PORT` | 应用端口 | `5000` |
 
